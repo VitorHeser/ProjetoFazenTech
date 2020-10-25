@@ -21,7 +21,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="3dp"
-        android:background="#03A14D"
+        android:background="#032BA1"
         android:visibility="gone">
 
         <ImageView
@@ -131,7 +131,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="20dp"
-                    android:background="#03A14D"
+                    android:background="#033DA1"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="Comece a Comprar"
                     android:textColor="@color/white"
