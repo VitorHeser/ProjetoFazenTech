@@ -63,6 +63,8 @@ public class FakeWebServer {
 
         ArrayList<Product> Verduras = new ArrayList<Product>();
 
+        ArrayList<Product> Legumes = new ArrayList<Product>();
+
         ArrayList<Product> Laticinios = new ArrayList<Product>();
 
         // Leites
@@ -103,18 +105,52 @@ public class FakeWebServer {
         Verduras = new ArrayList<Product>();
 
         Verduras.add(new Product(
-                "Leite de Saquinho",
-                "Leite retirado da fazenda direto para sua mesa",
+                "Brócolis",
+                "Verdura",
                 "-----",
-                "9",
+                "2",
+                "0",
+                "2",
+                "0",
+                "https://www.infoescola.com/wp-content/uploads/2010/08/brocolis.jpg",
+                "ver_1"));
+        Verduras.add(new Product(
+                "Couve",
+                "Verdura",
+                "-----",
+                "5",
                 "0",
                 "5",
                 "0",
-                "https://i.imgur.com/is3SOLZ.png",
-                "lei_1"));
-
+                "https://i0.wp.com/jornalibia.com.br/wp-content/uploads/2017/05/benef%C3%ADcios-da-couve-chris-castro-1.jpg",
+                "ver_2"));
 
         productMap.put("Verduras", Verduras);
+
+        Legumes = new ArrayList<Product>();
+
+        Legumes.add(new Product(
+                "Batata",
+                "Verdura",
+                "-----",
+                "2",
+                "0",
+                "2",
+                "0",
+                "https://hiperideal.vteximg.com.br/arquivos/ids/167660-1000-1000/27502.jpg",
+                "leg_1"));
+        Legumes.add(new Product(
+                "Cenoura",
+                "Verdura",
+                "-----",
+                "2",
+                "0",
+                "2",
+                "0",
+                "https://superprix.vteximg.com.br/arquivos/ids/175193-292-292/Cenoura--1-unidade-aprox.-200g-.png",
+                "leg_2"));
+
+        productMap.put("Legumes", Legumes);
         CenterRepository.getCenterRepository().setMapOfProductsInCategory(productMap);
 
     }

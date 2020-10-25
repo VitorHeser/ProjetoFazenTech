@@ -11,12 +11,12 @@
     android:shape="rectangle">
 
     <!-- view background color -->
-    <solid android:color="#03A14D"></solid>
+    <solid android:color="#032BA1"></solid>
 
     <!-- view border color and width -->
     <stroke
         android:width="0dp"
-        android:color="@color/holo_green_dark"></stroke>
+        android:color="@color/holo_green_theme"></stroke>
 
 
     <!-- Here is the corner radius -->

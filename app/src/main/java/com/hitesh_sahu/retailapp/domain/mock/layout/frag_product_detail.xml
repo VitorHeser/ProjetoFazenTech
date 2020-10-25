@@ -136,7 +136,7 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:background="@color/holo_green_light"
+                android:background="@color/holo_green_theme"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="+"
                 android:textColor="@color/white"
